@@ -96,12 +96,6 @@ python src/prepare_data.py
 
 # 2. Train + evaluate (also runs step 1 automatically if the processed file is missing)
 python src/train.py
-
-# 3. (optional) Regenerate the figures from results/
-python src/generate_figures.py
-
-# 4. (optional) Regenerate the one-file PDF report from the Markdown docs + figures
-python src/generate_report_pdf.py
 ```
 
 Both scripts use a fixed random seed (`42`) and an 80/20 stratified
